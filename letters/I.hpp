@@ -1,10 +1,10 @@
-#ifndef A_HPP
-#define A_HPP
+#ifndef I_HPP
+#define I_HPP
 #include "../graphics/line.hpp"
-class A {
+class I {
 	public:
-		A();
-		A(int, char c=CHARACTER);
+		I();
+		I(int, char c=CHARACTER);
 };
 
 #endif
