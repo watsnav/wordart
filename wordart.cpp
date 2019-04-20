@@ -98,10 +98,76 @@ int main(int argc, char **argv) {
 				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
 				break;
 			}
+			case 'M':
+			{
+				M varM;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'O':
+			{
+				O varO;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'P':
+			{
+				P varP;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'Q':
+			{
+				Q varQ;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'R':
+			{
+				R varR;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'S':
+			{
+				S varS;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
 			case 'T'://last pos is top, not bottom
 			{
 				T varT;
 				cout<<"\033["<<2<<"C";
+				break;
+			}
+			case 'U':
+			{
+				U varU;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'W':
+			{
+				W varW;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'X':
+			{
+				X varX;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'Y':
+			{
+				Y varY;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'Z':
+			{
+				Z varZ;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
 				break;
 			}
 			default:
@@ -109,7 +175,7 @@ int main(int argc, char **argv) {
 		}
 		i++;
         }
-	cout<<"\033["<<CHAR_LEN+1<<"E";
+	cout<<"\033["<<CHAR_LEN+3<<"E";
 
 	return 0;
 }
