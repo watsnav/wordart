@@ -5,11 +5,11 @@ E::E() {
 	Line l1;
 	l1.draw();
 	cout<<"\033[C";
-	l1.draw(0,CHAR_LEN/2+2);
-	cout<<"\033["<<CHAR_LEN/2<<"A\033["<<CHAR_LEN/2+1<<"D";
-	l1.draw(0,CHAR_LEN/2+1);
-	cout<<"\033["<<CHAR_LEN-CHAR_LEN/2-1<<"A\033["<<CHAR_LEN-CHAR_LEN/2<<"D";
-	l1.draw(0,CHAR_LEN/2+2);
+	l1.draw(0,CHAR_LEN-1);
+	cout<<"\033["<<CHAR_LEN/2<<"A\033["<<CHAR_LEN-2<<"D";
+	l1.draw(0,CHAR_LEN-2);
+	cout<<"\033["<<CHAR_LEN-CHAR_LEN/2-1<<"A\033["<<CHAR_LEN-3<<"D";
+	l1.draw(0,CHAR_LEN-1);
 }
 E::E(int l, char c) {
 	Line l1;

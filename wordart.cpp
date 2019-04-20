@@ -44,12 +44,6 @@ int main(int argc, char **argv) {
 				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
 				break;
 			}
-			case 'V':
-			{
-				V varV;
-				cout<<"\033["<<CHAR_LEN-2<<"A\033["<<2<<"C";
-				break;
-			}
 			case 'E'://last pos is top, not bottom
 			{
 				E varE;
@@ -143,6 +137,12 @@ int main(int argc, char **argv) {
 			case 'U':
 			{
 				U varU;
+				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
+				break;
+			}
+			case 'V':
+			{
+				V varV;
 				cout<<"\033["<<CHAR_LEN-1<<"A\033["<<2<<"C";
 				break;
 			}
