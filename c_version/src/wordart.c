@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv) {
 	if (argc < 2) {
-		printf("Usage: %s <string> [<size>]", argv[0]);
+		printf("Usage: %s <string> [<size>]\n", argv[0]);
 		exit(0);
 	}
 	for(int wordi=1; wordi<argc; wordi++) {
